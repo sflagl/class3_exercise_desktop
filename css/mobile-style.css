@@ -12,6 +12,7 @@
 }
 
 .container{
+	width: 960px;
 	margin: 0 auto;
 	padding: 10px;
 	border: none;
@@ -73,38 +74,33 @@ nav li:first-child{
 	margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-    /*Mobile style.css*/
+/*Mobile style.css*/
 
-	.container{
-		padding: 1%;
-	}
+.container{
+	padding: 0;
+}
 
-	header{
-		height: 7%;
-	}
+header{
+	height: 5%;
+}
 
-	ul {
-		margin: 0px;
-	}
+li{
+	display: none;
+}
 
-	li{
-		display: none;
-	}
+nav li:first-child{
+	display: block;
+}
 
-	nav li:first-child{
-		display: block;
-	}
+.below-hero{
+	padding: 0;
+	margin-top: 10px;
+}
 
-	.below-hero{
-		padding: 0;
-		margin-top: 10px;
-	}
-
-	.below-hero div{
-		width: 100%;
-		margin-bottom: 10px;
-	}
+.below-hero div{
+	width: 100%;
+	margin-bottom: 10px;
+}
 
 .bottom-content{
 	clear:both;

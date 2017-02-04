@@ -1,0 +1,42 @@
+*{
+    width:100%;
+    -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main{
+	height: 40%;
+	border: 1px solid #fff;
+	background: blue;
+	padding: 10px;
+	position: static;
+}
+
+.main div{
+	height: 100%;
+	width: 31%;
+
+	margin-right: 10px;
+}
+
+.one{
+	background: green;
+	position: fixed;
+	bottom: 40px;
+	left: 140px;
+}
+
+.two{
+	background: yellow;
+}
+
+.three{
+	background: white;
+}
